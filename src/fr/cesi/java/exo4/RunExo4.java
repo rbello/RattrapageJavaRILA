@@ -20,7 +20,14 @@ public class RunExo4 implements Runnable, ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		frame.outputField.setText("ERR");
+		try {
+			Operation grp = new Operation(frame.inputField.getText());
+			frame.outputField.setText(String.format("%.4f", grp.solve()));
+		}
+		catch (Throwable t) {
+			frame.outputField.setText("ERR");
+		}
+		frame.inputField.setText("");
 	}
 
 }

@@ -9,6 +9,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.border.EmptyBorder;
+import java.awt.Font;
 
 public class WindowExo2 extends JFrame {
 
@@ -24,7 +25,7 @@ public class WindowExo2 extends JFrame {
 	public WindowExo2() {
 		setTitle("File Explorer");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 751, 457);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -49,6 +50,7 @@ public class WindowExo2 extends JFrame {
 		);
 		
 		outputField = new JTextArea();
+		outputField.setFont(new Font("Monospaced", Font.PLAIN, 12));
 		outputField.setEditable(false);
 		scrollPane.setViewportView(outputField);
 		contentPane.setLayout(gl_contentPane);

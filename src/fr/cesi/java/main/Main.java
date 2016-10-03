@@ -4,7 +4,7 @@ import java.awt.EventQueue;
 
 public class Main {
 
-	public static final String NOM_DE_ETUDIANT = "Votre nom ici";
+	public static final String NOM_DE_ETUDIANT = "Correction";
 	
 	/**
 	 * Launch the application.

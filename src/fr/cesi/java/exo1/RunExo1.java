@@ -9,6 +9,8 @@ public class RunExo1 implements Runnable {
 		WindowExo1 frame = new WindowExo1();
 		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		frame.setVisible(true);
+		
+		new UpdateJob(frame).start();
 	}
 
 }
