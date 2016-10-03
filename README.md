@@ -2,15 +2,15 @@
 
 Exercice de rattrapage projet Java.
 
-Veuillez commencer par compléter votre nom dans le fichier Main.java
+Veuillez commencer par complÃ©ter votre nom dans le fichier Main.java
 
 ## Exercice 1
 
 **Nombre de points**: 2
 
-**Sujet**: Réaliser une horloge.
+**Sujet**: RÃ©aliser une horloge.
 
-Dans la fenêtre Swing existante, afficher l'heure en temps réel. 
+Dans la fenÃªtre Swing existante, afficher l'heure en temps rÃ©el. 
 
 ## Exercice 2
 
@@ -18,18 +18,19 @@ Dans la fenêtre Swing existante, afficher l'heure en temps réel.
 
 **Sujet**: Gestionnaire de fichier.
 
-En mode console (texte), faire un mini explorateur de fichier. Il aura les fonctionnalités suivantes :
-- Se déplacer dans les fichiers (cd)
-- Revenir en arrière (. et ..)
+En mode console (texte), faire un mini explorateur de fichier. Il aura les fonctionnalitÃ©s suivantes :
+- Se dÃ©placer dans les fichiers (cd)
+- Revenir en arriÃ¨re (. et ..)
 - Lister les fichiers et dossiers (ls)
 - Afficher la taille des fichiers et aussi des dossiers (dans la liste)
-L'IHM existe déjà, la console dans la fenêtre affiche le contenu de la sortie standard.
+
+L'IHM existe dÃ©jÃ , la console dans la fenÃªtre affiche le contenu de la sortie standard.
 
 ## Exercice 3
 
 **Nombre de points**: 6
 
-**Sujet**: Implémenter cette application modélisée en UML.
+**Sujet**: ImplÃ©menter cette application modÃ©lisÃ©e en UML.
 
 ![Exercice 3](https://raw.githubusercontent.com/rbello/RattrapageJavaRILA/master/src/fr/cesi/java/exo3/uml.png)
 
@@ -37,12 +38,13 @@ L'IHM existe déjà, la console dans la fenêtre affiche le contenu de la sortie st
 
 **Nombre de points**: 6
 
-**Sujet**: Implémenter une calculatrice en mode console.
+**Sujet**: ImplÃ©menter une calculatrice en mode console.
 
-A partir du champ de texte existant, calculer le résultat de l'opération saisie.
+A partir du champ de texte existant, calculer le rÃ©sultat de l'opÃ©ration saisie.
 Par exemple:
 - `4+4` affichera `8`
 - `6*7` affichera `42`
 - `9/(1+0.5)` affichera `6`
 
-Seules les opérations élémentaires (`+-*\`) seront à implémenter.
+Seules les opÃ©rations Ã©lÃ©mentaires (`+-*\`) seront Ã  implÃ©menter.
+Prioriter la multiplication/division sur l'addition/soustraction serait un plus.
